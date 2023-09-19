@@ -22,6 +22,7 @@ const Headers = styled.header`
     width: 43.8rem;
     border-radius: 1.8rem;
     padding: 1rem 3.2rem 0 1rem;
+    margin-bottom: 2rem;
 `
 const Div = styled.div`
     padding: 1.6rem;
@@ -39,7 +40,7 @@ const Span = styled.span`
 
 const Img = styled.img`
     width: 14.5%;
-    
+
 `
 
 export default Header
