@@ -7,7 +7,7 @@ function Header(){
                 <H1>My balance</H1>
                 <Span>$921.48 </Span>
             </Div>
-            <Img src="./src/assets/images/logo.svg" alt="Logo" />
+            <Img src="../../assets/images/logo.svg" alt="Logo" />
         </Headers>
     )
 }
