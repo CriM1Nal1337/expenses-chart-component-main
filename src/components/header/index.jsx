@@ -7,10 +7,13 @@ function Header(){
                 <H1>My balance</H1>
                 <Span>$921.48 </Span>
             </Div>
-            <Img src="src/assets/images/logo.svg" alt="Logo" />
+            <Img src="../../../src/assets/images/logo.svg" alt="Logo" />
         </Headers>
     )
 }
+const breakpoints = {
+    mobile: "440px",
+  };
 
 const Headers = styled.header`
     display: flex;
@@ -23,6 +26,10 @@ const Headers = styled.header`
     border-radius: 1.8rem;
     padding: 1rem 3.2rem 0 1rem;
     margin-bottom: 2rem;
+
+    @media (max-width: ${breakpoints.mobile}) {
+        width: 34.3rem;
+    }
 `
 const Div = styled.div`
     padding: 1.6rem;
@@ -40,7 +47,9 @@ const Span = styled.span`
 
 const Img = styled.img`
     width: 14.5%;
-
+    @media (max-width: ${breakpoints.mobile}) {
+        width: 6.3rem;
+    }
 `
 
 export default Header

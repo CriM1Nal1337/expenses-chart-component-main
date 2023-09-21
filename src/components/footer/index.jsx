@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components'
 
+
 function Footer() {
     return (
         <Footers>
@@ -16,6 +17,7 @@ const Footers = styled.footer`
     text-align: center;
     position: fixed;
     bottom: 25px;
+    left: center;
 `
 const As = styled.a`
     color: hsl(228, 45%, 44%);
